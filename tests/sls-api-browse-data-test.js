@@ -67,12 +67,12 @@ describe('SlsApiEditData', () => {
 			sandbox.assert.calledOnce(getDispatcherStub);
 			sandbox.assert.calledWithExactly(getDispatcherStub, {
 				entity: 'some-entity',
+				entityId: 'the-entity-id',
 				action: 'edit',
 				method: 'data',
 				headers: {
 					'x-foo': 'bar'
-				},
-				pathParameters: ['the-entity-id']
+				}
 			});
 
 			sandbox.assert.calledOnce(dispatcherStub.dispatch);
@@ -112,10 +112,10 @@ describe('SlsApiEditData', () => {
 			sandbox.assert.calledOnce(getDispatcherStub);
 			sandbox.assert.calledWithExactly(getDispatcherStub, {
 				entity: 'some-entity',
+				entityId: 'the-entity-id',
 				action: 'edit',
 				method: 'data',
-				headers: {},
-				pathParameters: ['the-entity-id']
+				headers: {}
 			});
 
 			sandbox.assert.calledOnce(dispatcherStub.dispatch);
@@ -157,10 +157,10 @@ describe('SlsApiEditData', () => {
 			sandbox.assert.calledOnce(getDispatcherStub);
 			sandbox.assert.calledWithExactly(getDispatcherStub, {
 				entity: 'some-entity',
+				entityId: 'the-entity-id',
 				action: 'edit',
 				method: 'data',
-				headers: {},
-				pathParameters: ['the-entity-id']
+				headers: {}
 			});
 
 			sandbox.assert.calledOnce(dispatcherStub.dispatch);
