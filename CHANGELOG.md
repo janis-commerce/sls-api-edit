@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.0.1] - 2019-06-25
 ### Fixed
+- README usage fixed
+
+## [1.0.1] - 2019-06-25
+### Fixed
 - Entity ID is now passed properly to APIView Dispatcher
 
 ## [1.0.0] - 2019-06-25

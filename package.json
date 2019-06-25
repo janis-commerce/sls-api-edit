@@ -1,6 +1,6 @@
 {
   "name": "@janiscommerce/sls-api-edit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An integration handler for Serverless and JANIS Views API Edit",
   "main": "index.js",
   "scripts": {

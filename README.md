@@ -19,7 +19,7 @@ npm install @janiscommerce/sls-api-edit
 
 const { SlsApiEditData } = require('@janiscommerce/sls-api-edit');
 
-module.exports = SlsApiEditData.handler;
+module.exports.handler = (...args) => SlsApiEditData.handler(...args);
 ```
 
 
