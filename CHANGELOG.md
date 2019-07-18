@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.0] - 2019-07-18
+### Changed
+- Browse APIs paths changed. Now MS_PATH env var is taken into account.
+
 ## [1.0.3] - 2019-07-01
 ### Fixed
 - Error responses don't get wrapped any more in data handler
